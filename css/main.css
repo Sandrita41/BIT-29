@@ -1,0 +1,16 @@
+/*base*/
+
+@import '/base/layout.css';
+@import '/base/reset.css';
+@import '/base/variables.css';
+
+/*components*/
+
+@import '/components/buttons.css';
+@import '/components/form.css';
+
+/*3rd-party*/
+
+body {
+    background-color: aqua;
+}
