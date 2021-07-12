@@ -10,3 +10,16 @@ console.log(aDOM);
 h1DOM.innerText = "Labas vakaras!";
 pDOM.innerHTML = "Šiandien gražus oras!"
 aDOM.innerHTML = "Spausk mane!"
+
+const allIngridientsDOM = document.querySelectorAll("li");
+console.log(allIngridientsDOM);
+for (let i = 0; i < allIngridientsDOM.length; i++) {
+    const item = allIngridientsDOM[i];
+    console.log(item);
+    const itemName = item.innerText;
+    const nameInUppercase = itemName.toUpperCase();
+    console.log(itemName, nameInUppercase);
+    const newArray = [];
+    newArray.push(nameInUppercase);
+    console.log(newArray);
+}
