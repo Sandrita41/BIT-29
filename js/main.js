@@ -8,6 +8,7 @@ console.log(aDOM);
 
 //Ar galima į quer'į kelis selektorius sudėti
 h1DOM.innerText = "Labas vakaras!";
+//Kaip konkrečiam h1 uždėti class
 h1DOM.classList.add("simba");
 pDOM.innerHTML = "Šiandien gražus oras!"
 aDOM.innerHTML = "Spausk mane!"
