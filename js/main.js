@@ -8,6 +8,7 @@ console.log(aDOM);
 
 //Ar galima į quer'į kelis selektorius sudėti
 h1DOM.innerText = "Labas vakaras!";
+h1DOM.classList.add("simba");
 pDOM.innerHTML = "Šiandien gražus oras!"
 aDOM.innerHTML = "Spausk mane!"
 
@@ -16,6 +17,7 @@ console.log(allIngridientsDOM);
 for (let i = 0; i < allIngridientsDOM.length; i++) {
     const item = allIngridientsDOM[i];
     console.log(item);
+    item.classList.add("darzoves");
     const itemName = item.innerText;
     const nameInUppercase = itemName.toUpperCase();
     console.log(itemName, nameInUppercase);

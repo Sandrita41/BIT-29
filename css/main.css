@@ -11,10 +11,11 @@
 
 /*3rd-party*/
 
+
+/*JS*/
+
+@import '/js/main.js';
+@import '/js/main3.js';
 body {
     background-color: aqua;
 }
-
-.btn {}
-
-div>a {}
