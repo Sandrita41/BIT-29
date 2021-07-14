@@ -2,10 +2,6 @@ const minusBtnDOM = document.querySelector(".minus");
 const plusBtnDOM = document.querySelector(".plus");
 const resetBtnDOM = document.querySelector(".reset");
 const resultDOM = document.querySelector(".number");
-console.log(minusBtnDOM);
-console.log(plusBtnDOM);
-console.log(resetBtnDOM);
-
 
 function clickButtons() {
     resultDOM = 0;
@@ -22,4 +18,4 @@ function clickButtons() {
 }
 
 plusBtnDOM.addEventListener('click', clickButtons);
-minusBtnDOM.addEventListener('click', clickButtons)
+minusBtnDOM.addEventListener('click', clickButtons);
