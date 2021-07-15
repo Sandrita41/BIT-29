@@ -7,10 +7,12 @@ function clickButtons() {
     resultDOM = 0;
     if (plusBtnDOM.classList.contains('plus')) {
         //padidinti kintamąjį +1
-        resultDOM = resetBtnDOM + 1;
+        resultDOM += resultDOM;
+        return resultDOM;
     }
     if (minusBtnDOM.classList.contains('minus')) {
-        resultDOM = resetBtnDOM - 1;
+        resultDOM -= resultDOM;
+        return resultDOM;
     }
     /*if (resetBtnDOM.classList.contains('reset')) {
         resetBtnDOM.classList.remove;
